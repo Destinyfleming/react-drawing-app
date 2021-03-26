@@ -1,0 +1,16 @@
+*{
+    
+    background-color: whitesmoke;
+    color: black;
+}
+
+#canvas{
+    background-image: url(/src/components/picture_frame.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-btn{
+    color: aqua;
+}

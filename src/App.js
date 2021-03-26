@@ -1,8 +1,14 @@
 import React from "react";
 import Drawing from "./components/drawing";
+import './components/style.css';
 
 function App() {
-  return <Drawing />;
+  return (
+    <div>
+      <h1 >Start your masterpiece below!</h1>
+        <Drawing />
+    </div>
+  );
 }
 
 export default App;
