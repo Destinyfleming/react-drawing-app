@@ -1,6 +1,6 @@
 import React from "react";
 import Drawing from "./components/drawing";
-import './components/style.css';
+import './styles/style.css';
 
 function App() {
   return (

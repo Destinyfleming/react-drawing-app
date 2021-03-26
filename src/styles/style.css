@@ -1,0 +1,34 @@
+*{
+    
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.canvas{
+    background-image: url(/src/styles/picture_frame.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #555;
+}
+
+.color-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-btn{
+    background-color: #4CAF50; 
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
