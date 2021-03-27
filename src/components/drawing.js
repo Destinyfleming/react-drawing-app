@@ -25,6 +25,7 @@ const Drawing = () => (
 //make fetch request or api call
 //activity 20
 function randomInspo(){
+  console.log(rword.generate())
   alert("Think of this word when starting your next project: "+ rword.generate())
   
 }
